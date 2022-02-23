@@ -1,6 +1,6 @@
 Bienvenido  a mi cuenta de Github,
 este es un proyecto basico,el cual he realizado para mis practicas de familiarizacion de mi universidad,bueno,al grano este sitio web consiste en una maquetacion basica de html,css,js
-el cual he desarrollado una web dandole host gracias al servicio gratuito de--->https://www.000webhost.com/ con el enlace restmadronos.tk
+el cual he desarrollado una web dandole host gracias al servicio gratuito de--->https://www.000webhost.com/ con el enlace http://restmadronos.tk/ (valido por 1 año)
 
 Que hay en este proyecto?
 ← README.md: Este documento explica un poco de como se realizo el proyecto y mas detalles.
