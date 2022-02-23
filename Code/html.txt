@@ -1,1 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Restaurante los Madroños</title>
 
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+      <div class="splash">
+   <div class="fade-in">
+
+ 
+      <div class="lds-heart"><div></div></div>
+
+   </div>
+      
+         </div>
+   
+  
+<!-- aca inicia el header   -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> Restaurante Los Madroños. </a>
+
+   <nav class="navbar">
+      <a href="#home">Inicio</a>
+      <a href="#about">Acerca de</a>
+      <a href="#food">Comidas</a>
+      <a href="#gallery">Galeria</a>
+      <a href="#menu">Menu</a>
+      <a href="#order">Mensaje</a>
+      <a href="#blogs">Publicaciones</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- finaliza la seccion header -->
+
+<!-- inicio de seccion home  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/Portada.jpeg?v=1643238951702) no-repeat;">
+            <div class="content">
+               <span>Nuestro Lugar</span>
+               <h3> UN AMBIENTE Familiar</h3>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0"target="_blank" class="btn">Comprar Ahora</a>
+            </div> 
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/LOMO%20JIJI.jpeg?v=1643145607751) no-repeat;">
+            <div class="content">
+               <span>Nuestra Cocina</span>
+               <h3>Sabor exquisito</h3>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0"target="_blank" class="btn">Comprar Ahora</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/churrassco.jpeg?v=1643145664692) no-repeat;">
+            <div class="content">
+               <span>Nuestros Platillos</span>
+               <h3>Comida Autentica</h3>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0"target="_blank" class="btn">Comprar Ahora</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- finaliza la seccion home-->
+
+<!-- inicio de la seccion acerca de-->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/fondo%20principal.png?v=1643145117169" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Bienvenidos a Nuestro Restaurante</h3>
+      <p>Aquí encontraras la mas sana diversión en un ambiente campestre, podrán disfrutar de un dia Inolvidable, además podrán celebrar reuniones, cumpleaños, eventos especiales o simplemente usted en lo personal acepte nuestra invitación a disfrutar de nuestro acojedor ambiente. </p>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn" >Ordenar ahora</a>
+      <div class="icons-container">
+         <div class="icons">
+            <img loading= "lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/about-icon-1.png?v=1643145017820 alt="" >
+            <h3>Comida de calidad</h3>
+         </div>
+         <div class="icons">
+            <img loading="lazy"src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/about-icon-2.png?v=1643145016761" alt="">
+            <h3>comidas y bebidas</h3>
+         </div>
+         <div class="icons">
+            <img  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/about-icon-3.png?v=1643145016755" alt="">
+            <h3>expertos culinarios</h3>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<!-- termina la seccion acerca de -->
+
+<!-- aca inicia la seccion de comida  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>Platillos sobresalientes</span>
+      <h3>nuestras deliciosas comidas
+         <br>Toque cada platillo para ver su descripción
+      </h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/img%20menu%201.png?v=1643145145469" alt="">
+            <h3>Filete de Pescado</h3>
+            <div class="price">110.00 C$</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/fondo%20principal.png?v=1643145117169" alt="">
+            <h3>Lomo Relleno de res</h3>
+            <div class="price">550.00C$ <br> Solo por encargo </div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/sopa%20marinera.png?v=1643146154088" alt="">
+            <h3>Sopa Marinera</h3>
+            <div class="price">220.00 C$</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/pollo%20en%20salsa%20blanca.png?v=1643146219292" alt="">
+            <h3>Pollo Jalapeño</h3>
+            <div class="price">115.00 C$</div>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/carne%20asada.png?v=1643145207969" alt="">
+            <h3>Carne Asada </h3>
+            <div class="price">115.00 C$</div>
+         </div>
+                              
+      
+                       <div class="swiper-slide slide" data-name="food-6">
+            <img loading= "lazy"  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/ceviche.png?v=1643260116457" alt="">
+            <h3>Ceviche de pescado </h3>
+            <div class="price">180.00 C$</div>
+         </div>
+        
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- aca termina la seccion de comida -->
+
+<!-- aca inicia la preview con el menu desplegable de platos fuertes  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img loading="lazy"  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/img%20menu%201.png?v=1643145145469" alt="">
+      <h3>Filete de Pescado </h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Un Platillo tipico de nuestro municipio ya que contamos con mariscos frescos de nuestras playas</p>
+      <div class="price">110.00 C$</div>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn">Ordenar ahora</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+       <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/fondo%20principal.png?v=1643145117169" alt="">
+      <h3>Lomo Relleno</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Es un exquisito platillo que reina en las mesas nicaragüenses durante las festividades decembrinas o en las bodas.</p>
+      <div class="price">550.00 C$</div>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn">Ordenar ahora</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+    <img loading="lazy"  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/sopa%20marinera.png?v=1643146154088" alt="">
+      <h3>Sopa Marinera</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>
+        Sopa Marinera Nicaragüense compuesta de filete de pescado, camarones,huevos de tortuga y verduras.</p>
+      <div class="price">220.00 C$</div>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn">Ordenar ahora</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+       <img loading="lazy"  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/pollo%20en%20salsa%20blanca.png?v=1643146219292" alt="">
+      <h3>Pollo Jalapeño</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>
+ 
+         Es una receta deliciosa, especial para los paladares amantes del picante. Es un plato rápido para esos días que quieres comer algo sabroso, pero no tienes casi tiempo para cocinar.</p>
+      <div class="price">115.00 C$</div>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0"target="_blank" class="btn">Ordenar ahora</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+    <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/carne%20asada.png?v=1643145207969" alt="">
+      <h3>Carne Asada</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Uno de los platillos más íconicos de Nicaragua es la Carne Asada que es parte de la gastronomía común de nuestro país pero especialmente de la nocturna, la cuál es conocida como “FRITANGA”.</p>
+      <div class="price">115.00 C$</div>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn">Ordenar ahora</a>
+   </div>
+                                                                     
+   <div class="food-preview" data-target="food-6">
+    <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/ceviche.png?v=1643260116457" alt="">
+      <h3>Ceviche De  Pescado</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Uno de los platillos mas especiales de nuestro municipio ya que contamos con mariscos frescos</p>
+      <div class="price">115.00 C$</div>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn">Ordenar ahora</a>
+   </div>
+                                                                     
+                                                                     
+                                                                     
+                                                                     
+</section>
+<!--https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/ceviche.png?v=1643260116457 -->
+<!-- food preview section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>Nuestra Galeria</span>
+      <h3>Un Poco más de nuestros platillos</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/imagen%20galeria%201.jpg?v=1643146783926" class="box">
+         <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/imagen%20galeria%201.jpg?v=1643146783926" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/Camarones.jpeg?v=1643146838574" class="box">
+         <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/Camarones.jpeg?v=1643146838574" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/arroz%20con%20camarones.jpeg?v=1643239354840" class="box">
+         <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/arroz%20con%20camarones.jpeg?v=1643239354840" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/aros%20de%20cebolla.jpeg?v=1643147106975" class="box">
+         <img loading="lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/aros%20de%20cebolla.jpeg?v=1643147106975" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/churrassco.jpeg?v=1643146949691" class="box">
+         <img loading= "lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/churrassco.jpeg?v=1643146949691" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/ensalada%20cesar.jpg?v=1643146948261" class="box">
+         <img loading= "lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/ensalada%20cesar.jpg?v=1643146948261" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+                                                  
+                                                  
+  
+   
+                                                  
+      <a href="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/carne%20asada%20carta.jpeg?v=1643239593836" class="box">
+         <img src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/carne%20asada%20carta.jpeg?v=1643239593836" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+                                                  
+
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>Nuestro Menu</span>
+      <h3>Todos nuestos platillos</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">CARTA</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Pollo rostizado</h3>
+                     <p> Pieza de pollo,arroz,Tajadas o papas fritas,ensalada de lechuga con vegetales</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Fajitas de pollo</h3>
+                     <p>Fajitas de pollo,arroz,tajadas o papas fritas,ensalada de lechuga con vegetales</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Pollo a la plancha</h3>
+                     <p>Pieza de pollo a la plancha,arroz,papas fritas,pure de papa,ensalada cesar</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Pollo jalapeño</h3>
+                     <p>Pieza de pollo,salsa jalapeña,arroz,papas fritas,pure de papa,ensalada cesar</p>
+                  </div>
+                  <div class="price">115.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Cerdo asado</h3>
+                     <p>Cerdo ,arroz,frijoles,tostones,ensalada con aguacate</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Cerdo Frito</h3>
+                     <p>Cerdo frito,arroz,frijoles,tostones,ensalada con aguacate<</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+              
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">CARTA</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Carne desmenuzada</h3>
+                     <p>Carne desmenuzada,arroz,frijoles,tostones,ensalada mixta</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Carne a la plancha</h3>
+                     <p>Carne a la plancha,arroz,tostones,ensalada mixta</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Tortas de carne</h3>
+                     <p>Tortas de carne,arroz,frijoles,tostones,ensalada mixta</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Carne asada</h3>
+                     <p>Carne asada,arroz,tajadas o tostones,ensalada mixta</p>
+                  </div>
+                  <div class="price">115.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Salpicón</h3>
+                     <p>Salpicón de res,arroz,tostones,pure de papa,ensalada </p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Carne jalapeña</h3>
+                     <p>Carne jalapeña,arroz,tostones,ensalada mixta</p>
+                  </div>
+                  <div class="price">115.00 C$</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">CARTA</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Bisteck</h3>
+                     <p>Carne de bisteck,arroz,tostones,ensalada mixta</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Filete de pescado</h3>
+                     <p>Pescado entero,arroz,ensalada mixta,tostones,salsa casera.</p>
+                  </div>
+                  <div class="price">110.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Sopa marinera</h3>
+                     <p>Arroz,Tostones,huevos de tortuga,langosta,pescado,vegetales</p>
+                  </div>
+                  <div class="price">220.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Sopa de pescado</h3>
+                     <p>Pescado,arroz,tostones</p>
+                  </div>
+                  <div class="price">110.00C$</div>
+               </div>
+            
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Bebidas</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Cacao</h3>
+                     <p>Bebida a base de cacao</p>
+                  </div>
+                  <div class="price">15.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Semilla de jicaro</h3>
+                     <p>Bebida a base de semilla de jicaro</p>
+                  </div>
+                  <div class="price">15.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Cebada</h3>
+                     <p>Bebida tipo cereal a base de cebada</p>
+                  </div>
+                  <div class="price">15.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Gaseosas</h3>
+                     <p>Coca cola,pepsi,rojita,fanta,sprite</p>
+                  </div>
+                  <div class="price">15.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Toña</h3>
+                     <p>Cerveza Lager</p>
+                  </div>
+                  <div class="price">30.00C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Powerade</h3>
+                     <p>Bebida Energizante</p>
+                  </div>
+                  <div class="price">30.00 C$</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">Platillos Especiales (Consulte disponibilidad)</h3>
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Sopa de res (Domingos)</h3>
+                     <p>Sopa de verduras,Carne de res,Acompañada de arroz y tortilla</p>
+                  </div>
+                  <div class="price">110.00 C$ <br>  90.00 C$ para llevar</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Sopa de gallina(Domingos)</h3>
+                     <p>Sopa con verduras,Gallina,Acompañada de arroz y tortilla</p>
+                  </div>
+                  <div class="price">110.00 C$ <br> 90.00 C$ para llevar </div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Ceviche de pescado</h3>
+                     <p>Pescado,Galleta de su preferencia,limón</p>
+                  </div>
+                  <div class="price">220.00 C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Camarones al ajillo</h3>
+                     <p>Camarones en ajo,arroz,tostones o papas fritas,salsa rosada,ensalada mixta</p>
+                  </div>
+                  <div class="price">220.00C$</div>
+               </div>
+
+               <div class="box">
+                  <div class="info">
+                     <h3>Camarones en salsa</h3>
+                     <p>Camarones en salsa de tomate,arroz,tostones o papas fritas,salsa rosada,ensalada mixta</p>
+                  </div>
+                  <div class="price">220.00C$</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Lomo relleno de res</h3>
+                     <p>Carne de Lomo de res ,acompañado de arroz y pan</p>
+                  </div>
+                  <div class="price">550.00C$</div>
+               </div>
+               
+
+               <div class="box">
+                  <div class="info">
+                     <h3>Lomo relleno de cerdo</h3>
+                     <p>Carne de Lomo de cerdo ,acompañado de arroz y pan</p>
+                  </div>
+                  <div class="price">500.00C$</div>
+               </div>
+
+            </div>
+
+            <div class="swiper-slide slide">
+            </div>
+        
+            <div class="box-container">
+   
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+   </div>
+</div>
+
+ 
+
+</section>
+
+<!-- aca termina la seccion del menu -->
+
+<!-- inicia la seccion de ordenes  -->
+
+<section class="order" id="order">
+<form class="form" action="https://formspree.io/f/myyokrpe"
+method="POST">
+<div class="form__container">
+<h2 class="form__title">Dejanos Tu Opinión</h2>
+<input type="text" class="form__input" placeholder="Nombre" name="name">
+<input type="email" class="form__input" placeholder="Email:" name="_replyto">
+
+<textarea class="form__input form__input--message" placeholder="Mensaje" name="Mensaje"></textarea>   
+
+<button type= "submit">Enviar</button>
+
+</div>
+</form>
+</section>
+
+
+
+<!--seccion de orden finaliza -->
+
+<!-- seccion de publicaciones inicia  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>Blog</span>
+      <h3>Nuestros clientes </h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img loading= "lazy"  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/IMG-20220124-WA0026.jpg?v=1643351184475" alt="1-imagen del menu" >
+               <span>churrassco</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 03 de enero, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> Laura Sánchez  </a>
+               </div>
+               <a href="#" class="title"></a>
+               <p>Encantada de la atención carne muy rica,alimentos muy frescos</p>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn">Comprar ahora</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img loading= "lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/IMG-20220126-WA0023.jpg?v=1643350983596" alt="">
+               <span>Camarones en salsa</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 01 De enero, 2022 </a>
+                  <a href="https://www.facebook.com/johanssen.roque.5" target="_blank"><i class="fas fa-user"></i> Johanssen Roque </a>
+               </div>
+               <a href="#" class="title">Platillo delicioso</a>
+               <p> Delicioso,un lugar agradable y los camarones muy frescos sin duda volveria a comprar una vez más.</p>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="btn">Comprar ahora</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img loading= "lazy"  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/POST2.jpg?v=1643148434356" alt="">
+               <span>Nuestros clientes</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 01 De Febrero, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> Massiel Moraga </a>
+               </div>
+               <a href="#" class="title"></a>
+               <p>Venimos desde El Salvador para probar nuestros platillos Nicaragüenses y esa cuchara que nunca se pierde </p>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0"target="_blank" class="btn">Comprar ahora</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img loading= "lazy" src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/tio.jpeg?v=1643422451195" alt="">
+               <span>Nuestros clientes</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 10 De abril, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> Alandy Sánchez </a>
+               </div>
+               <a href="#" class="title"></a>
+               <p>Un ambiente agradable en familia</p>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0"target="_blank" class="btn">Comprar ahora</a>
+            </div>
+         </div>
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img loading= "lazy"  src="https://cdn.glitch.global/0274ea33-4baa-4c6b-b5da-053eb6d7ad1e/food%20img%201.jpg?v=1643395550971" alt="">
+               <span>Cerdo Asado</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 01 De Febrero, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> Kelly Gutierrez </a>
+               </div>
+               <a href="#" class="title"></a>
+               <p>Me encantó la ensalada casera,muy preparada.</p>
+               <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0"target="_blank" class="btn">Comprar ahora</a>
+            </div>
+         </div>
+
+     
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- blogs section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+         <h3>HORARIO DE ATENCIÓN EN EL LOCAL </h3>
+         <p>11:00am a 04:00pm. <br> (ENCARGOS Y DELIVERY NO INCLUDOS)</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>TELEFONOS</h3>
+         <p>2293-3093</p>
+         <p>7858 0622</p>
+      </div>
+
+     
+      <div class="icons">
+         <i class="fas fa-map"></i>
+         <h3>Dirección</h3>
+         <p>Del Inss 1 cuadra al norte,Media cuadra al este,Mano derecha. </p>
+      </div>
+      <div class="icons">
+         <i class="fas fa-hands-wash"></i>
+         <h3>Te protegemos</h3>
+         <p>Contamos con todas las medidas ante el Covid-19,Uso de mascarillas de nuestro personal </p>
+      </div>
+
+
+   </div>
+
+   <div class="share">
+      <a href="https://www.facebook.com/Restaurante-Los-Madro%C3%B1os-106095071648766 " target="_blank" class="fab fa-facebook-f"></a>
+      <a href="https://api.whatsapp.com/send/?phone=50578580622&text=Hola+me+gustaria+hacer+un+pedido&app_absent=0" target="_blank" class="fab fa-whatsapp"></a>
+      <a href="https://www.instagram.com/morlanroberto/" target="_blank" class="fab fa-instagram"></a>
+  
+   </div>
+
+   <div class="credit"> Web Diseñada <span>Por Johanssen Roque</span> | todos los derechos reservados!  </div>
+
+</section>
+
+<!-- footer section ends  -->
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="app.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
